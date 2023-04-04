@@ -9,7 +9,7 @@ def arithm_mean(original_list):
     new_list = []
     sum_num = 0
     for num in range(0, len(original_list)):
-        sum_num = sum_num + original_list[num]
+        sum_num = sum_num + original_list[num] #arithmetical mean sum(original_list)/len(original_list)
 
     arith_m = sum_num/len(original_list)
     print(arith_m)

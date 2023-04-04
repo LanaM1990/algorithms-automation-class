@@ -5,7 +5,7 @@
 
 def lowest_element(original_list):
     original_list.sort()
-    print(original_list[0], original_list[1])
+    print(original_list[0], original_list[1]) #return original_list[:2]
 
 
 test_list = [198, 3, 4, 9, 10, 9, 2]
